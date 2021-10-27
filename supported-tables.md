@@ -1,403 +1,222 @@
-AACAudit 
-
-AACHttpRequest 
-
-AADDomainServicesAccountLogon 
-
-AADDomainServicesAccountManagement 
-
-AADDomainServicesDirectoryServiceAccess 
-
-AADDomainServicesLogonLogoff 
-
-AADDomainServicesPolicyChange 
-
-AADDomainServicesPrivilegeUse 
-
-AADManagedIdentitySignInLogs 
-
-AADNonInteractiveUserSignInLogs 
-
-AADProvisioningLogs 
-
-AADServicePrincipalSignInLogs 
-
-ABSBotRequests 
-
-ACSAuthIncomingOperations 
-
-ACSBillingUsage 
-
-ACSChatIncomingOperations 
-
-ACSSMSIncomingOperations 
-
-ADAssessmentRecommendation 
-
-ADFActivityRun 
-
-ADFPipelineRun 
-
-ADFSSignInLogs 
-
-ADFTriggerRun 
-
-ADPAudit 
-
-ADPDiagnostics 
-
-ADPRequests 
-
-ADReplicationResult 
-
-ADSecurityAssessmentRecommendation 
-
-ADTDigitalTwinsOperation 
-
-ADTModelsOperation 
-
-ADTQueryOperation 
-
-ADXCommand 
-
-ADXQuery 
-
-AegDeliveryFailureLogs 
-
-AegPublishFailureLogs 
-
-Alert 
-
-AmlOnlineEndpointConsoleLog 
-
-ApiManagementGatewayLogs 
-
-AppAvailabilityResults 
-
-AppBrowserTimings 
-
-AppCenterError 
-
-AppDependencies 
-
-AppEvents 
-
-AppExceptions 
-
-AppMetrics 
-
-AppPageViews 
-
-AppPerformanceCounters 
-
-AppPlatformSystemLogs 
-
-AppRequests 
-
-AppServiceAppLogs 
-
-AppServiceAuditLogs 
-
-AppServiceConsoleLogs 
-
-AppServiceFileAuditLogs 
-
-AppServiceHTTPLogs 
-
-AppServicePlatformLogs 
-
-AppSystemEvents 
-
-AppTraces 
-
-AuditLogs 
-
-AutoscaleEvaluationsLog 
-
-AutoscaleScaleActionsLog 
-
-AWSCloudTrail 
-
-AWSVPCFlow 
-
-AzureAssessmentRecommendation 
-
-AzureDevOpsAuditing 
-
-BehaviorAnalytics 
-
-BlockchainApplicationLog 
-
-BlockchainProxyLog 
-
-CDBCassandraRequests 
-
-CDBControlPlaneRequests 
-
-CDBDataPlaneRequests 
-
-CDBGremlinRequests 
-
-CDBMongoRequests 
-
-CDBPartitionKeyRUConsumption 
-
-CDBPartitionKeyStatistics 
-
-CDBQueryRuntimeStatistics 
-
-CommonSecurityLog 
-
-ComputerGroup 
-
-ConfigurationData 
-
-ContainerImageInventory 
-
-ContainerInventory 
-
-ContainerLog 
-
-ContainerLogV2 
-
-ContainerNodeInventory 
-
-ContainerServiceLog 
-
-CoreAzureBackup 
-
-DatabricksAccounts 
-
-DatabricksClusters 
-
-DatabricksDBFS 
-
-DatabricksInstancePools 
-
-DatabricksJobs 
-
-DatabricksNotebook 
-
-DatabricksSecrets 
-
-DatabricksSQLPermissions 
-
-DatabricksSSH 
-
-DatabricksWorkspace 
-
-DeviceNetworkInfo 
-
-DnsEvents 
-
-DnsInventory 
-
-DummyHydrationFact 
-
-Dynamics365Activity 
-
-EmailAttachmentInfo 
-
-EmailEvents 
-
-EmailPostDeliveryEvents 
-
-EmailUrlInfo 
-
-Event 
-
-ExchangeAssessmentRecommendation 
-
-FailedIngestion 
-
-FunctionAppLogs 
-
-HDInsightAmbariClusterAlerts 
-
-HDInsightAmbariSystemMetrics 
-
-HDInsightHadoopAndYarnLogs 
-
-HDInsightHadoopAndYarnMetrics 
-
-HDInsightHBaseLogs 
-
-HDInsightHBaseMetrics 
-
-HDInsightHiveAndLLAPLogs 
-
-HDInsightHiveAndLLAPMetrics 
-
-HDInsightHiveTezAppStats 
-
-HDInsightKafkaMetrics 
-
-HDInsightOozieLogs 
-
-HDInsightSecurityLogs 
-
-HDInsightSparkApplicationEvents 
-
-HDInsightSparkBlockManagerEvents 
-
-HDInsightSparkEnvironmentEvents 
-
-HDInsightSparkExecutorEvents 
-
-HDInsightSparkJobEvents 
-
-HDInsightSparkLogs 
-
-HDInsightSparkSQLExecutionEvents 
-
-HDInsightSparkStageEvents 
-
-HDInsightSparkStageTaskAccumulables 
-
-HDInsightSparkTaskEvents 
-
-HuntingBookmark 
-
-InsightsMetrics 
-
-IntuneAuditLogs 
-
-IntuneDevices 
-
-IntuneOperationalLogs 
-
-KubeEvents 
-
-KubeHealth 
-
-KubeMonAgentEvents 
-
-KubeNodeInventory 
-
-KubePodInventory 
-
-KubeServices 
-
-LAQueryLogs 
-
-McasShadowItReporting 
-
-MCCEventLogs 
-
-MicrosoftAzureBastionAuditLogs 
-
-MicrosoftDataShareReceivedSnapshotLog 
-
-MicrosoftDataShareSentSnapshotLog 
-
-MicrosoftHealthcareApisAuditLogs 
-
-NWConnectionMonitorPathResult 
-
-NWConnectionMonitorTestResult 
-
-OfficeActivity 
-
-OutputType 
-
-Perf 
-
-PowerBIDatasetsWorkspace 
-
-PurviewScanStatusLogs 
-
-SCCMAssessmentRecommendation 
-
-SCOMAssessmentRecommendation 
-
-SecurityAlert 
-
-SecurityBaseline 
-
-SecurityBaselineSummary 
-
-SecurityDetection 
-
-SecurityEvent 
-
-SecurityIncident 
-
-SecurityIoTRawEvent 
-
-SecurityNestedRecommendation 
-
-SecurityRecommendation 
-
-SentinelHealth 
-
-SfBOnlineAssessmentRecommendation 
-
-SharePointOnlineAssessmentRecommendation 
-
-SignalRServiceDiagnosticLogs 
-
-SigninLogs 
-
-SPAssessmentRecommendation 
-
-SQLAssessmentRecommendation 
-
-SQLSecurityAuditEvents 
-
-SucceededIngestion 
-
-SynapseBigDataPoolApplicationsEnded 
-
-SynapseBuiltinSqlPoolRequestsEnded 
-
-SynapseGatewayApiRequests 
-
-SynapseIntegrationActivityRuns 
-
-SynapseIntegrationPipelineRuns 
-
-SynapseIntegrationTriggerRuns 
-
-SynapseRbacOperations 
-
-SynapseSqlPoolDmsWorkers 
-
-SynapseSqlPoolExecRequests 
-
-SynapseSqlPoolRequestSteps 
-
-SynapseSqlPoolSqlRequests 
-
-SynapseSqlPoolWaits 
-
-Syslog 
-
-ThreatIntelligenceIndicator 
-
-Update 
-
-UpdateRunProgress 
-
-UpdateSummary 
-
-Watchlist 
-
-WindowsEvent 
-
-WindowsFirewall 
-
-WireData 
-
-WorkloadDiagnosticLogs 
-
-WVDAgentHealthStatus 
-
-WVDCheckpoints 
-
-WVDConnections 
-
-WVDErrors 
-
-WVDFeeds 
-
-WVDManagement
+| Table | Limitations |
+|:---|:---|
+| AACAudit |  |
+| AACHttpRequest |  |
+| AADDomainServicesAccountLogon |  |
+| AADDomainServicesAccountManagement |  |
+| AADDomainServicesDirectoryServiceAccess |  |
+| AADDomainServicesLogonLogoff |  |
+| AADDomainServicesPolicyChange |  |
+| AADDomainServicesPrivilegeUse |  |
+| AADManagedIdentitySignInLogs |  |
+| AADNonInteractiveUserSignInLogs |  |
+| AADProvisioningLogs |  |
+| AADRiskyUsers |  |
+| AADServicePrincipalSignInLogs |  |
+| AADUserRiskEvents |  |
+| ABSBotRequests |  |
+| ACSAuthIncomingOperations |  |
+| ACSBillingUsage |  |
+| ACRConnectedClientList |  |
+| ACRConnectedClientList |  |
+| ACSCallDiagnostics |  |
+| ACSCallSummary |  |
+| ACSChatIncomingOperations |  |
+| ACSSMSIncomingOperations |  |
+| ADAssessmentRecommendation |  |
+| ADFActivityRun |  |
+| ADFPipelineRun |  |
+| ADFSSignInLogs |  |
+| ADFTriggerRun |  |
+| ADPAudit |  |
+| ADPDiagnostics |  |
+| ADPRequests |  |
+| ADReplicationResult |  |
+| ADSecurityAssessmentRecommendation |  |
+| ADTDigitalTwinsOperation |  |
+| ADTEventRoutesOperation |  |
+| ADTModelsOperation |  |
+| ADTQueryOperation |  |
+| ADXCommand |  |
+| ADXQuery |  |
+| AegDeliveryFailureLogs |  |
+| AegPublishFailureLogs |  |
+| AEWAuditLogs |  |
+| AgriFoodApplicationAuditLogs |  |
+| AgriFoodApplicationAuditLogs |  |
+| AgriFoodFarmManagementLogs |  |
+| AgriFoodFarmManagementLogs |  |
+| AgriFoodFarmOperationLogs |  |
+| AgriFoodInsightLogs |  |
+| AgriFoodJobProcessedLogs |  |
+| AgriFoodModelInferenceLogs |  |
+| AgriFoodProviderAuthLogs |  |
+| AgriFoodSatelliteLogs |  |
+| AgriFoodWeatherLogs |  |
+| Alert |  |
+| AlertEvidence |  |
+| AmlOnlineEndpointConsoleLog |  |
+| ApiManagementGatewayLogs |  |
+| AppCenterError |  |
+| AppPlatformSystemLogs |  |
+| AppServiceAppLogs |  |
+| AppServiceAuditLogs |  |
+| AppServiceConsoleLogs |  |
+| AppServiceFileAuditLogs |  |
+| AppServiceHTTPLogs |  |
+| AppServicePlatformLogs |  |
+| ATCExpressRouteCircuitIpfix |  |
+| AuditLogs |  |
+| AutoscaleEvaluationsLog |  |
+| AutoscaleScaleActionsLog |  |
+| AWSCloudTrail |  |
+| AWSGuardDuty |  |
+| AWSVPCFlow |  |
+| AzureAssessmentRecommendation |  |
+| AzureDevOpsAuditing |  |
+| BehaviorAnalytics |  |
+| BlockchainApplicationLog |  |
+| BlockchainProxyLog |  |
+| CDBCassandraRequests |  |
+| CDBControlPlaneRequests |  |
+| CDBDataPlaneRequests |  |
+| CDBGremlinRequests |  |
+| CDBMongoRequests |  |
+| CDBPartitionKeyRUConsumption |  |
+| CDBPartitionKeyStatistics |  |
+| CDBQueryRuntimeStatistics |  |
+| CloudAppEvents |  |
+| CommonSecurityLog |  |
+| ComputerGroup |  |
+| ConfigurationData | Partial support – some of the data is ingested through internal services that aren't supported.|
+| ContainerImageInventory |  |
+| ContainerInventory |  |
+| ContainerLog |  |
+| ContainerLogV2 |  |
+| ContainerNodeInventory |  |
+| ContainerServiceLog |  |
+| CoreAzureBackup |  |
+| DatabricksAccounts |  |
+| DatabricksClusters |  |
+| DatabricksDBFS |  |
+| DatabricksInstancePools |  |
+| DatabricksJobs |  |
+| DatabricksNotebook |  |
+| DatabricksSecrets |  |
+| DatabricksSQLPermissions |  |
+| DatabricksSSH |  |
+| DatabricksWorkspace |  |
+| DeviceNetworkInfo |  |
+| DnsEvents |  |
+| DnsInventory |  |
+| DummyHydrationFact |  |
+| Dynamics365Activity |  |
+| EmailAttachmentInfo |  |
+| EmailEvents |  |
+| EmailPostDeliveryEvents |  |
+| EmailUrlInfo |  |
+| Event | Partial support – data arriving from Log Analytics agent (MMA) or Azure Monitor Agent (AMA) is fully supported. Data arriving via Diagnostics Extension agent is collected though storage while this path isn’t supported. |
+| ExchangeAssessmentRecommendation |  |
+| FailedIngestion |  |
+| FunctionAppLogs |  |
+| HDInsightAmbariClusterAlerts |  |
+| HDInsightAmbariSystemMetrics |  |
+| HDInsightHadoopAndYarnLogs |  |
+| HDInsightHadoopAndYarnMetrics |  |
+| HDInsightHBaseLogs |  |
+| HDInsightHBaseMetrics |  |
+| HDInsightHiveAndLLAPLogs |  |
+| HDInsightHiveAndLLAPMetrics |  |
+| HDInsightHiveTezAppStats |  |
+| HDInsightJupyterNotebookEvents |  |
+| HDInsightKafkaMetrics |  |
+| HDInsightOozieLogs |  |
+| HDInsightRangerAuditLogs |  |
+| HDInsightSecurityLogs |  |
+| HDInsightSparkApplicationEvents |  |
+| HDInsightSparkBlockManagerEvents |  |
+| HDInsightSparkEnvironmentEvents |  |
+| HDInsightSparkExecutorEvents |  |
+| HDInsightSparkJobEvents |  |
+| HDInsightSparkLogs |  |
+| HDInsightSparkSQLExecutionEvents |  |
+| HDInsightSparkStageEvents |  |
+| HDInsightSparkStageTaskAccumulables |  |
+| HDInsightSparkTaskEvents |  |
+| HuntingBookmark |  |
+| InsightsMetrics | Partial support – some of the data is ingested through internal services that aren't supported. |
+| IntuneAuditLogs |  |
+| IntuneDevices |  |
+| IntuneOperationalLogs |  |
+| KubeEvents |  |
+| KubeHealth |  |
+| KubeMonAgentEvents |  |
+| KubeNodeInventory |  |
+| KubePodInventory |  |
+| KubeServices |  |
+| LAQueryLogs |  |
+| McasShadowItReporting |  |
+| MCCEventLogs |  |
+| MicrosoftAzureBastionAuditLogs |  |
+| MicrosoftDataShareReceivedSnapshotLog |  |
+| MicrosoftDataShareSentSnapshotLog |  |
+| MicrosoftDataShareShareLog |  |
+| MicrosoftHealthcareApisAuditLogs |  |
+| NWConnectionMonitorPathResult |  |
+| NWConnectionMonitorTestResult |  |
+| OfficeActivity | |
+| Perf | Partial support – only windows perf data is currently supported. |
+| PowerBIDatasetsWorkspace |  |
+| HDInsightRangerAuditLogs |  |
+| PurviewScanStatusLogs |  |
+| SCCMAssessmentRecommendation |  |
+| SCOMAssessmentRecommendation |  |
+| SecurityAlert |  |
+| SecurityBaseline |  |
+| SecurityBaselineSummary |  |
+| SecurityDetection |  |
+| SecurityEvent | Partial support – data arriving from Log Analytics agent (MMA) or Azure Monitor Agent (AMA) is fully supported. Data arriving via Diagnostics Extension agent is collected though storage while this path isn’t supported. |
+| SecurityIncident |  |
+| SecurityIoTRawEvent |  |
+| SecurityNestedRecommendation |  |
+| SecurityRecommendation |  |
+| SentinelHealth |  |
+| SfBAssessmentRecommendation |  |
+| SfBOnlineAssessmentRecommendation |  |
+| SharePointOnlineAssessmentRecommendation |  |
+| SignalRServiceDiagnosticLogs |  |
+| SigninLogs |  |
+| SPAssessmentRecommendation |  |
+| SQLAssessmentRecommendation |  |
+| SQLSecurityAuditEvents |  |
+| SucceededIngestion |  |
+| SynapseBigDataPoolApplicationsEnded |  |
+| SynapseBuiltinSqlPoolRequestsEnded |  |
+| SynapseGatewayApiRequests |  |
+| SynapseIntegrationActivityRuns |  |
+| SynapseIntegrationPipelineRuns |  |
+| SynapseIntegrationTriggerRuns |  |
+| SynapseRbacOperations |  |
+| SynapseSqlPoolDmsWorkers |  |
+| SynapseSqlPoolExecRequests |  |
+| SynapseSqlPoolRequestSteps |  |
+| SynapseSqlPoolSqlRequests |  |
+| SynapseSqlPoolWaits |  |
+| Syslog | Partial support – data arriving from Log Analytics agent (MMA) or Azure Monitor Agent (AMA) is fully supported. Data arriving via Diagnostics Extension agent is collected though storage while this path isn’t supported. |
+| ThreatIntelligenceIndicator |  |
+| Update | Partial support – some of the data is ingested through internal services that aren't supported. |
+| UpdateRunProgress |  |
+| UpdateSummary |  |
+| UserAccessAnalytics |  |
+| UserPeerAnalytics |  |
+| Watchlist |  |
+| WindowsEvent |  |
+| WindowsFirewall |  |
+| WireData | Partial support – some of the data is ingested through internal services that aren't supported. |
+| WorkloadDiagnosticLogs |  |
+| WVDAgentHealthStatus |  |
+| WVDCheckpoints |  |
+| WVDConnections |  |
+| WVDErrors |  |
+| WVDFeeds |  |
+| WVDManagement |  |
